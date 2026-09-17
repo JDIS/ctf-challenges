@@ -1,17 +1,12 @@
 name: Nom du défi
 author: Auteur·e
-category: Cryptographie/Misc/OSINT/Programmation/PWN/Rétro-ingénierie/Stéganographie/Web
+category: Cryptographie/Varia/OSINT/Programmation/PWN/Rétro-ingénierie/Stéganographie/Web
 
-type: zync
+type: standard
+
 # https://res260.github.io/cfss/
-# CFSS:0.3/TS:B/E:M/HSFC:N=4-7
-value: 6
-
-# peut etre http, tcp, ou custom_compose. Voir https://github.com/28Pollux28/galvanize/tree/87073547b1f048bd814628f23029082df522b0e5#challenge-definitions
-playbook_name: http
-
-deploy_parameters:
-  unique: false # true for shared, false for one per person
+# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
+value: 1
 
 connection_info: si nécessaire
 
@@ -27,9 +22,12 @@ description: |-
   Visit the new GoQuick system to view the waiting times of your favorite rides, all from the comfort of your favorite browser!
 
 flags:
-- POLYCYBER{ch4nge-m3}
+- flag-ch4nge-m3
+
+files:
+- nom du fichier donné si ça s'applique
 
 tags:
 - crypto/misc/osint/programming/pwn/reverse/steg/web
 - A:Auteur·e
-- facile/moyen/dur
+- CFSS:0.3/TS:L/E:L/HSFC:N=1-2

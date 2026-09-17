@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/polycyber/polypwn2026/${CHALL_NAME:?}:latest
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.site_${CHALL_NAME:?}_${USER_NAME:?}.rule=Host(`${CHALL_NAME:?}.${USER_NAME:?}.${DOMAIN_NAME:?}`)"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

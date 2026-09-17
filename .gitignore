@@ -1,0 +1,12 @@
+# Ignore editors
+.idea
+.vscode
+
+.gdb_history
+.history
+
+# Macos files
+.DS_Store
+
+node_modules
+.ctf/config

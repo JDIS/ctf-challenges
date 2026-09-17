@@ -1,0 +1,35 @@
+name: Nom du défi
+author: Auteur·e
+category: Cryptographie/Misc/OSINT/Programmation/PWN/Rétro-ingénierie/Stéganographie/Web
+
+type: zync
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:B/E:M/HSFC:N=4-7
+value: 6
+
+# peut etre http, tcp, ou custom_compose. Voir https://github.com/28Pollux28/galvanize/tree/87073547b1f048bd814628f23029082df522b0e5#challenge-definitions
+playbook_name: http
+
+deploy_parameters:
+  unique: false # true for shared, false for one per person
+
+connection_info: si nécessaire
+
+description: |-
+  ## Description (français)
+
+  Êtes-vous tannés de vous rendre jusqu'à un manège juste pour constater qu'il y a une file interminable?<br>
+  Visitez le nouveau système GoQuick pour consulter les temps d'attentes à partir de navigateur préféré!
+
+  ## Description (english)
+
+  Are you tired of making your way to a ride only to be met with a seemingly never-ending line?<br>
+  Visit the new GoQuick system to view the waiting times of your favorite rides, all from the comfort of your favorite browser!
+
+flags:
+- POLYCYBER{ch4nge-m3}
+
+tags:
+- crypto/misc/osint/programming/pwn/reverse/steg/web
+- A:Auteur·e
+- facile/moyen/dur

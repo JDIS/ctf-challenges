@@ -1,0 +1,33 @@
+name: Nippori 1
+
+author: Otaphoque
+
+category: Web
+
+description: |-
+
+  Vous êtes en visite au Japon pour découvrir le monde merveilleux du textile... Ah, toutes ces soieries toutes plus soyeuses les unes que les autres, ces cotons imprimés aux couleurs vibrantes et aux motifs géométriques si caractéristiques du pays du soleil levant, et ce lin plus naturel que la nature elle-même ! Bref, vous ne savez pas par où commencer. Heureusement que ce site existe pour vous aiguiller dans votre aventure textile!
+
+
+value: 1
+
+
+
+connection_info: https://nippori.jdis.ca/
+
+
+
+flags:
+
+- JDIS{111_c30d01fe9c5545a4af0824a39e1c3daf}
+
+
+
+tags:
+
+- A:Otaphoque
+
+- web
+
+- CFSS:0.3/TS:L/E:L/HSFC:N=1-2
+

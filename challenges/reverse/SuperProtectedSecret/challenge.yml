@@ -1,25 +1,25 @@
-name: Super Protected Secret
-author: Lea1496
-category: Reverse
-
-type: standard
-
-# https://res260.github.io/cfss/
-# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
-value: 1
-
-description: |-
-  ## Description (français)
-
-  Vous ne devinerez jamais mon mot de passe!
-
-flags:
-- JDIS{3asyStr1ngsFl4g}
-
-files:
-- secret
-
-tags:
-- reverse
-- A:Lea1496
+name: Super Protected Secret
+author: Lea1496
+category: Reverse
+
+type: standard
+
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
+value: 1
+
+description: |-
+  ## Description (français)
+
+  Vous ne devinerez jamais mon mot de passe!
+
+flags:
+- JDIS{3asyStr1ngsFl4g}
+
+files:
+- secret
+
+tags:
+- reverse
+- A:Lea1496
 - CFSS:0.3/TS:L/E:L/HSFC:N=1-2

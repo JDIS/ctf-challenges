@@ -1,25 +1,25 @@
-name: Cookie Monster
-author: Capucinoxx
-category: Web
-
-type: standard
-
-# https://res260.github.io/cfss/
-# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
-value: 2
-
-connection_info: https://cookiemonster.jdis.ca/
-
-description: |-
-
-  🍪 Qui ne connaît pas la faim insatiable de Cookie Monster pour les biscuits ? 🍪
-
-  💭 Se lançant dans une nouvelle quête de biscuit, Cookie Monster a entendu parler qu'un trésor de biscuits se trouvait dans la cuisine du bateau pirate. Ayant réussi à se faire passer pour un marin, il doit maintenant réussir à se faire passer pour **un cuisinier**. 😄
-
-flags:
-- JDIS{C0000oOokKKkki111iiie3ee3eee}
-
-tags:
-- web
-- Capucinoxx
+name: Cookie Monster
+author: Capucinoxx
+category: Web
+
+type: standard
+
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
+value: 2
+
+connection_info: https://cookiemonster.jdis.ca/
+
+description: |-
+
+  🍪 Qui ne connaît pas la faim insatiable de Cookie Monster pour les biscuits ? 🍪
+
+  💭 Se lançant dans une nouvelle quête de biscuit, Cookie Monster a entendu parler qu'un trésor de biscuits se trouvait dans la cuisine du bateau pirate. Ayant réussi à se faire passer pour un marin, il doit maintenant réussir à se faire passer pour **un cuisinier**. 😄
+
+flags:
+- JDIS{C0000oOokKKkki111iiie3ee3eee}
+
+tags:
+- web
+- Capucinoxx
 - CFSS:0.3/TS:L/E:L/HSFC:N=1-2

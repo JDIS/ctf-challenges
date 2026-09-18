@@ -1,0 +1,26 @@
+name: Pirate Register 2
+author: Lea1496
+category: Web
+
+type: standard
+
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:B/E:L/HSFC:N=2-4
+value: 3
+
+connection_info: https://pirate.jdis.ca/
+
+description: |-
+
+  Je crois qu'il y a un pirate qui essaie de se cacher de mon registre...
+
+flags:
+- JDIS{un1onSql1nj3ction}
+
+requirements:
+- Pirate Register 1
+
+tags:
+- web
+- Lea1496
+- CFSS:0.3/TS:B/E:L/HSFC:N=2-4

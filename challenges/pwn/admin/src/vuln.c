@@ -12,7 +12,7 @@ void vuln()
     if (is_admin)
     {
         puts("Access granted!");
-        puts("REDACTED");
+        puts("JDIS{adm1n0v3rwr1te}");
     }
     else
     {

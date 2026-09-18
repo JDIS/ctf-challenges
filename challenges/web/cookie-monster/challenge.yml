@@ -8,20 +8,13 @@ type: standard
 # CFSS:0.3/TS:L/E:L/HSFC:N=1-2
 value: 2
 
-connection_info: mettre le lien
+connection_info: https://cookiemonster.jdis.ca/
 
 description: |-
-  ## Description (français)
 
   🍪 Qui ne connaît pas la faim insatiable de Cookie Monster pour les biscuits ? 🍪
 
   💭 Se lançant dans une nouvelle quête de biscuit, Cookie Monster a entendu parler qu'un trésor de biscuits se trouvait dans la cuisine du bateau pirate. Ayant réussi à se faire passer pour un marin, il doit maintenant réussir à se faire passer pour **un cuisinier**. 😄
-
-  ## Description (english)
-
-  🍪 Who doesn't know Cookie Monster's insatiable hunger for cookies? 🍪
-
-  💭 Embarking on a new cookie quest, Cookie Monster heard that a treasure of cookies was hidden in the pirate ship's kitchen. Having successfully disguised himself as a sailor, he now has to manage to pass as **a cook**. 😄
 
 flags:
 - JDIS{C0000oOokKKkki111iiie3ee3eee}

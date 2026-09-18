@@ -1,0 +1,29 @@
+name: Admin Overwrite
+author: Lea1496
+category: Pwn
+
+type: standard
+
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:L/E:L/HSFC:N=1-2
+value: 1
+
+connection_info: tcp://admin.jdis.ca:1337/
+
+description: |-
+	Connais-tu les buffers overflow?
+
+  L'exécutable ne contient pas le flag, si vous êtes capable d'obtenir "REDACTED" répétez ces même étapes ovec le processus qui roule sur pwnme.jdis.ca:31337 pour avoir le vrai flag.
+
+  Pour vous y connecter vous pouvez faire `nc admin.jdis.ca 1337`.
+
+flags:
+- JDIS{adm1n0v3rwr1te}
+
+files:
+- adminoverwrite
+
+tags:
+- pwn
+- A:Lea1496
+- CFSS:0.3/TS:L/E:L/HSFC:N=1-2

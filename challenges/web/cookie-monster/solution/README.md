@@ -22,7 +22,6 @@ Par la suite, nous pouvons utiliser CyberChef pour d√©coder notre drapeau encod√
 
 ![decoding_flag](./images/cyber_flag.png)
 
-
 ## Write-up (english)
 
 The name of the challenge gives us the intuition that the challenge will be about browser cookies.
@@ -45,7 +44,6 @@ Subsequently, we can use CyberChef to find our flag encoded in ROT13.
 
 ![decoding_flag](./images/cyber_flag.png)
 
-
 ## Flag
 
-`flag-C0000oOokKKkki111iiie3ee3eee`
+`JDIS{C0000oOokKKkki111iiie3ee3eee}`

@@ -1,0 +1,42 @@
+services:
+  admin:
+    build: ./challenges/pwn/admin
+    container_name: admin
+    networks:
+      - admin
+
+  introbufferoverflow:
+    build: ./challenges/pwn/intro-buffer-overflow
+    container_name: introbufferoverflow
+    networks:
+      - introbufferoverflow
+
+  cookie-monster:
+    build: ./challenges/web/cookie-monster
+    container_name: cookie-monster
+    networks:
+      - cookie-monster
+
+  nippori:
+    build: ./challenges/web/Nippori
+    container_name: nippori
+    networks:
+      - nippori
+
+  pirateregister:
+    build: ./challenges/web/PirateRegister
+    container_name: pirateregister
+    networks:
+      - pirateregister
+
+networks:
+  admin:
+    external: true
+  introbufferoverflow:
+    external: true
+  cookie-monster:
+    external: true
+  nippori:
+    external: true
+  pirateregister:
+    external: true

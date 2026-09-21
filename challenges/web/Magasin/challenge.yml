@@ -1,0 +1,24 @@
+name: Magasin
+
+author: Lea1496
+
+category: Web
+
+type: standard
+
+# https://res260.github.io/cfss/
+# CFSS:0.3/TS:B/E:L/HSFC:N=2-4
+value: 2
+
+connection_info: https://magasin.jdis.ca
+
+description: |-
+  J'ai créé un portail pour vendre ma merch, je vends même des flags très convoités...
+
+flags:
+- JDIS{cl13nt_s1d3_v4l1d4t10n_1s_n0t_s3cur1ty}
+
+tags:
+- web
+- Lea1496
+- CFSS:0.3/TS:B/E:L/HSFC:N=2-4

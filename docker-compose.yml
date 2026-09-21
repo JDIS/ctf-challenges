@@ -33,6 +33,12 @@ services:
     networks:
       - pirateregister
 
+  magasin:
+  build: ./challenges/web/Magasin
+  container_name: magasin
+  networks:
+    - magasin
+
 networks:
   admin:
     external: true
@@ -43,4 +49,6 @@ networks:
   nippori:
     external: true
   pirateregister:
+    external: true
+  magasin:
     external: true

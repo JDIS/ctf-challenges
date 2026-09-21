@@ -2,12 +2,16 @@ services:
   admin:
     build: ./challenges/pwn/admin
     container_name: admin
+    ports:
+      - "1337:1337"
     networks:
       - admin
 
   introbufferoverflow:
     build: ./challenges/pwn/intro-buffer-overflow
     container_name: introbufferoverflow
+    ports:
+      - "1338:1337"
     networks:
       - introbufferoverflow
 

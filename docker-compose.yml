@@ -34,16 +34,16 @@ services:
       - pirateregister
 
   magasin:
-  build: ./challenges/web/Magasin
-  container_name: magasin
-  networks:
-    - magasin
+    build: ./challenges/web/Magasin
+    container_name: magasin
+    networks:
+      - magasin
 
   maze:
-  build: ./challenges/misc/EnglandMaze
-  container_name: maze
-  networks:
-    - maze
+    build: ./challenges/misc/EnglandMaze
+    container_name: maze
+    networks:
+      - maze
 
 networks:
   admin:

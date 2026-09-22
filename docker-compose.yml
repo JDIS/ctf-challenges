@@ -39,6 +39,12 @@ services:
   networks:
     - magasin
 
+  maze:
+  build: ./challenges/misc/EnglandMaze
+  container_name: maze
+  networks:
+    - maze
+
 networks:
   admin:
     external: true
@@ -51,4 +57,6 @@ networks:
   pirateregister:
     external: true
   magasin:
+    external: true
+  maze:
     external: true

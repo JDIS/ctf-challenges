@@ -42,6 +42,8 @@ services:
   maze:
     build: ./challenges/misc/EnglandMaze
     container_name: maze
+    ports:
+      - "2244:22"
     networks:
       - maze
 

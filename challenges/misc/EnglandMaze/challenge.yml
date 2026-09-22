@@ -14,9 +14,9 @@ description: |-
 
   **Identifiants de connexion:** `ctfuser:longleat2025`
 
-  **Pour vous connecter** : `ssh ctfuser@maze.jdis.ca` 
+  **Pour vous connecter** : `ssh ctfuser@maze.jdis.ca -p 2244` 
 
-connection_info: ssh://maze.jdis.ca
+connection_info: ssh://maze.jdis.ca:2244
 
 flags:
 - JDIS{longleat_maze_discount_navigation_master}

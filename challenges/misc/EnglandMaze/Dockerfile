@@ -36,7 +36,7 @@ RUN rm -f /bin/find /bin/grep /bin/fgrep /bin/*grep* /bin/cat
 RUN chown -R ctfuser:ctfuser /home/ctfuser
 
 # Expose SSH port
-EXPOSE 22
+EXPOSE 2244
 
 # Start SSH service
 CMD ["/usr/sbin/sshd", "-D"]

@@ -25,7 +25,7 @@ def create_directory(name, depth, is_flag_placed, max_width=5):
 
         if i == flag_dir:
             with open(os.path.join(new_path, 'flag.txt'), 'w') as f:
-                f.write("flag-longleat_maze_discount_navigation_master")
+                f.write("JDIS{longleat_maze_discount_navigation_master}")
             is_flag_placed = True
         else:
             is_flag_placed = create_directory(new_path, depth-1, is_flag_placed, max_width)

@@ -1,7 +1,7 @@
 from pwn import *
 
 HOST = 'pwnme.jdis.ca'
-PORT = 1337
+PORT = 1338
 
 ## première étape
 # p = process('./pwn')
